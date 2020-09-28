@@ -16,7 +16,7 @@ The objective for the first part of the test is to create an API for publishing 
 
 #### Rules:
  - The API must be done on django.
- - The post model must have **title**, **published_date**, **is_active**, **content** (html content), and **related_tags** (for easy search) fields.
+ - The post model must have **title**, **published_date**, **is_active**, **content** (html content), **related_tags** (for easy search), and also a **related_user** fields.
  - The comment model must have **title**, **comment**, **send_date**, **related_user** fields.
  - Just **is_staff** users can publish post on the blog and edit just their own posts.
  - Just logged users can send comments for the post.
